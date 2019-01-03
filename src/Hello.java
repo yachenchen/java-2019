@@ -8,7 +8,7 @@ public class Hello{
     void greeting(){
         if(time.getHour() < 12){
             System.out.println("Good Morning");
-        }else if(time.getHour() > 12 && time.getHour() < 18){
+        }else if(time.getHour() >= 12 && time.getHour() < 18){
             System.out.println("Good Afternoon. Just ate an apple.");
         }else{
             System.out.println("Good Evening. Let's do some shopping");
